@@ -11,6 +11,11 @@ CsaGuzzleBundle
 [![SymfonyInsight](https://insight.symfony.com/projects/eceadd60-cc6c-473c-9d20-e8207654d70b/mini.svg)](https://insight.symfony.com/projects/eceadd60-cc6c-473c-9d20-e8207654d70b "SensioLabs Insight")
 [![Appveyor Build Status](https://ci.appveyor.com/api/projects/status/e5sev7kmv8l4q13q/branch/master?svg=true)](https://ci.appveyor.com/project/csarrazi/csaguzzlebundle/branch/master "Appveyor")
 
+Fork notice
+-----------
+
+This fork is an exact clone of csarrazi's bundle, but is tagged on the newest commit, so it supports PHP 8.0. Please refer to the original repository for all credits, issues and PRs. This repository will not be maintained.
+
 Description
 -----------
 
