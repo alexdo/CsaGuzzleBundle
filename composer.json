@@ -33,7 +33,7 @@
         "psr/cache": "Allows caching of responses",
         "tolerance/tolerance": "Allows retrying failed requests"
     },
-    "conflict": {
+    "replace": {
         "csa/guzzle-bundle": "*"
     },
     "extra": {
