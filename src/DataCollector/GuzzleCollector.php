@@ -185,20 +185,10 @@ abstract class InternalGuzzleCollector extends DataCollector
     }
 }
 
-if (Kernel::MAJOR_VERSION >= 5) {
-    final class GuzzleCollector extends InternalGuzzleCollector
+final class GuzzleCollector extends InternalGuzzleCollector
+{
+    public function collect(Request $request, Response $response, \Throwable $exception = null)
     {
-        public function collect(Request $request, Response $response, \Throwable $exception = null)
-        {
-            parent::doCollect($request, $response, $exception);
-        }
-    }
-} else {
-    class GuzzleCollector extends InternalGuzzleCollector
-    {
-        public function collect(Request $request, Response $response, \Exception $exception = null)
-        {
-            parent::doCollect($request, $response, $exception);
-        }
+        parent::doCollect($request, $response, $exception);
     }
 }
